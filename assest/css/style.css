@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* header section start */
+header{
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    background: #131d3a;
+    display:flex;
+    padding: 0px 125px;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li {
+    margin-right: 10px;
+    display: inline;
+}
+header ul li a{
+    font-weight: 600;
+}
+header ul li a .active{
+    color: #ec567b;
+}
+/* header section start */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 650px;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/heart.jpg);
+    padding: 0px 125px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.banner h1{
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    font-weight:normal;
+}
+.banner h2{
+    position: absolute;
+    top: 250px;
+    font-size: 30px;
+    
+}
+.banner form{
+    position: absolute;
+    width: 85%;
+    height: auto;
+    padding: 3px 8px;
+    display: flex;
+    align-items: center;
+    background:#613a7b ;
+    bottom: 50px;
+}
+.banner form button{
+    width: 90px;
+    height: 25px;
+    background: #4f2e65;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+.banner form button.active{
+    background: #ff4442;
+}
+.banner form label{
+    display: none;
+}
+.banner form .searchForm{
+    margin-top: 8px;
+}
+.banner form .searchForm input,
+.banner form .searchForm select{
+    width: 200px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.banner form button.sbmt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+/* /banner section end */
+
+/* fun section start */
+.fun{
+    width: 100%;
+    height: 300px;
+    padding: 50px 125px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/images\ \(1\).jpeg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.fun ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fun ul li{
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+    height: 125px;
+    font-size: 50px;
+    padding-top: 15px;
+    background:rgba(0,0,0,0.7) ;
+}
+.fun ul h4{
+    font-size:15px ;
+}
+/* /fun section end */
+
+/* newslatter section start */
+    .newslatter{
+        width: 100%;
+        height: 300px;
+        padding: 50px 125px;
+        text-align: right;
+        background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/plane.jpeg) ;
+        background-size: 100% 100%;
+    }
+    .newslatter h1{
+        padding-top:60px ;
+        padding-bottom: 20px;
+        padding-right: 170px;
+        color: #fff;
+    }
+    .newslatter p{
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        padding: 8px 30px;
+        padding-left: 400px;
+    }
+    .newslatter label{
+        display: none;
+    }
+    .newslatter form{
+        padding-right: 70px;
+        padding-top: 40px;
+    }
+    .newslatter input{
+        width: 45%;
+        height: 40px;
+        background: transparent;
+        border: 1px solid white;
+    }
+    .newslatter button{
+        width: 14%;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+/* /newslatter section end */
+
+/* destination section start */
+.destination{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 50px 125px;
+    background: #20162f;
+}
+.destination ul{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: 400px 400px;
+    grid-gap: 10px;
+}
+.destination ul li{
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    border: 5px solid #fff;
+}
+.destination ul li img{
+    width: 100%;
+    height: 200px;
+}
+.destination ul li .p{
+    color: #000;
+    padding: 15px 25px;
+}
+div span{
+    color: #fe8b07;
+}
+div p{
+    margin-top: 15px;
+}
+
+/* /destination section end  */
+
+/* esimate section start */
+.estimate{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 125px;
+    background: #664CAD;
+}
+.estimate label{
+    display: none;
+}
+.estimate img{
+    width: 200px;
+    height: 170px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.estimate form input,select{
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+ 
+    
+}
+.estimate form button{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    background: #ff9000;
+} 
+.estimate h1,h3{
+    padding-left: 15px;
+   color: #fff;
+}
+/* /esimate  section end  */
+
+/* blog section start */
+.blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+}
+.blog h2{
+    color: #000;
+    margin-bottom: 10px;
+}
+.blog h2+p{
+    text-align: center;
+}
+.blog img{
+    width: 150px;
+    height: 150px;
+}
+.blog-content{
+    margin: 10px auto;
+    display: flex;
+}
+.blog-content div{
+    display: flex;
+    padding: 10px;
+}
+
+.blog-content div div{
+    display: inline;
+}
+/* .blog-content div .bdr{
+    
+} */
+
+/* /blog section end */
+
+/* footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px ;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/plane.jpeg);
+    background-size: 100% 100%;
+    
+}
+footer .topfoot , footer .bootomfooter{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+}
+footer h3{
+    color: #918E97;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+footer ul li a{
+    color: #918E97;
+}
+footer ul li span{
+    color: #fff;
+    font-weight: 400;
+}
+footer .international div{
+    display: flex;
+    justify-content: space-between;
+    color: #ecebeb;
+}
+footer .international div .inter{
+    margin-right: 40px;
+}
+footer .footmenu ul li{
+    
+    display: inline-block;
+    margin:100px 20px 10px 10px;
+    font-weight: 700;
+    
+}
+footer .footmenu ul li a{
+    color: #fff;
+    
+}
+footer .footmenu p{
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 2px;
+    font-weight: 300;
+    
+}
+footer .bottomfooter img{
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+   float: left;
+}
+footer .social ul li{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* /footer section end */
+
+/* media query section start */
+@media screen and(max-width:1199px) {
+    header,.banner,.fun,
+    .newslatter,.destination,.estimate,
+    .blog,footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner form{
+        width: 86%;
+    }
+    .banner form .searchForm input,
+    .banner form .searchForm select{
+        width: 17%;
+    }
+    .banner form button .smt{
+        float: right !important;
+        margin-left: 0px;
+    }
+}
+@media  screen and(max-width:991px) {
+    .fun ul li{
+        width: 105px;
+        height: 115px;
+        font-size: 35px;
+    }
+    .blog-content{
+        display: block;
+    }
+    .destination ul li .p {
+        color: #000;
+        padding: 0px 16px;
+    }
+    
+}
+
+@media screen and(max-width:767px) {
+    header,.banner,.fun,
+    .newslatter,.destination,.estimate,
+    .blog,footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+header .nav{
+    display: none;
+    }
+.banner form{
+    width: auto;
+    margin: 0px auto;
+    flex-direction: column;
+}
+.banner form .searchForm input,
+.banner form .searchForm select{
+    display: block;
+    width: 100%;
+}
+.banner form .searchForm span{
+    display: none;
+}
+.banner form button .smt{
+    width: 280px;
+    height: 35px;
+    border-radius: 0px;
+    margin: 10px auto;
+}
+.destination ul li .p {
+    color: #000;
+    padding: 0px 16px;
+}
+}
+@media screen and(max-width:575px) {
+    
+}
+/* /media query section end */
+
